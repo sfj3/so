@@ -72,7 +72,7 @@ def run_compute(device, pipeline, input_a, input_b):
     # except Exception as e:
     #     logger.error(f"Error with to_bytes: {e}")
     print('3333')
-    abd = [print(x) for x in result_pointer] 
+    abd = [print(x) for x in result_pointer[:4]] 
     return abd
 
 # ... rest of the code remains the same
